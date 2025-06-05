@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Spoiler Blocker
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/tark1998/spoiler-blocker/tree/main
 // @version      2025-06-05
 // @description  Block the spoiler from the title
 // @author       You
