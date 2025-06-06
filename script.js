@@ -17,7 +17,7 @@
 
     const colorCookie = document.cookie.match(/night_mode=[^;]+/);
     const color = colorCookie && colorCookie[0][11]=="Y" ? "yellow" : "red"
-    const reg = /((?<!(ㄴ|노))(스포|ㅅㅍ)(?!(츠|x|X|아님|없음)))/;
+    const reg = /(?<!(?:ㄴ|노))(스포|ㅅㅍ)(?!(?:츠|x|X|아님|없음))/;
     const imgUrl = "https://arca.live/static/assets/images/spoiler-alert.png?t=07184c06fc58e18ac8bbb2f2d8a223d934cd5a72";
 
     document.querySelectorAll('li.li.li_best2_pop0 > div > h3, li[class="clear"] > div > h3, table.bd_lst > tbody > tr > td > a:not(.replyNum)').forEach(
