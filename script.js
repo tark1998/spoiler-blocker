@@ -31,7 +31,7 @@
         img.classList.add("auto_insert");
         img.style.maxWidth="100%";
         img.src = imgUrl;
-        document.querySelector(".document_address").insertAdjacentElement("beforeend",img);
+        document.querySelector(".document_address").insertAdjacentElement("afterend",img);
     }
 
 })();
